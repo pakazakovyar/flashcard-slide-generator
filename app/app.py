@@ -104,7 +104,7 @@ def create_presentation_with_images_and_words(image_binaries, words, output_path
 
 
 app = FastAPI()
-templates = Jinja2Templates(directory="./../templates")
+templates = Jinja2Templates(directory="./../template")
 
 app.words = []
 app.images = []
